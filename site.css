@@ -1,0 +1,31 @@
+﻿body {
+    background-image: url('NewFolder1/Subtle-Grunge-Grey-Seamless-Pattern-For-Website-Background.jpg');
+}
+.pageHeader {
+    margin-bottom:30px;
+    }
+
+h1, h3 {
+    text-align:center;
+    padding-top: 35px;
+    padding-bottom:35px;
+}
+
+h1 {
+    font-size:65px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    font-stretch:ultra-expanded;
+}
+
+h3 {
+    font-family: 'Stalemate', cursive;
+    margin:-20px;
+    padding-top:0px;
+    font-size: 75px;
+    font-weight:400;
+}
+#bs-example-navbar-collapse-1.nav.navbar-nav>ul {
+    text-align:center;
+}
