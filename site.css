@@ -29,3 +29,16 @@ h3 {
 #bs-example-navbar-collapse-1.nav.navbar-nav>ul {
     text-align:center;
 }
+
+.mapPic {
+    height: 600px;
+    
+   }
+
+.coverPicture {
+    background-image: url('NewFolder1/tuscanCover.jpg');
+    background-size:cover;
+    height: 600px;
+    padding:0px;
+    margin:0px;
+    }

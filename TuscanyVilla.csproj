@@ -108,7 +108,16 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="NewFolder1\Capture.PNG" />
+    <Content Include="NewFolder1\images1.jpg" />
+    <Content Include="NewFolder1\images2.jpg" />
+    <Content Include="NewFolder1\images3.jpg" />
+    <Content Include="NewFolder1\images4.jpg" />
+    <Content Include="NewFolder1\images5.jpg" />
+    <Content Include="NewFolder1\map.jpg" />
+    <Content Include="NewFolder1\Partner.png" />
     <Content Include="NewFolder1\Subtle-Grunge-Grey-Seamless-Pattern-For-Website-Background.jpg" />
+    <Content Include="NewFolder1\tuscanCover.jpg" />
+    <Content Include="NewFolder1\WhiteSpace.jpg" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="site.css" />
