@@ -3,6 +3,8 @@
 }
 .pageHeader {
     margin-bottom:30px;
+    margin-top:30px;
+    height:250px;
     }
 
 h1, h3 {
@@ -26,19 +28,142 @@ h3 {
     font-size: 75px;
     font-weight:400;
 }
-#bs-example-navbar-collapse-1.nav.navbar-nav>ul {
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+div.container-fluid {
+    padding:0px;
+    margin:0px;
+}
+.coverPicture {
+    border:2px solid white;
+    height: 600px;
+    width: 1044px;
+    padding:0px;
+    margin:0px;
+    margin-left:40px;
+}
+.firstRowPics:hover {
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+        
+    }
+.mapPic {
+
+      border:2px solid white;
+      height:600px;
+      width:348px;
+      margin-top:0px;
+      margin-left:0px;
+      margin-bottom:0px;
+      margin-right:50px;
+      padding:0px;
+      position:absolute;
+      
+}
+.thumbnailPics {
+    border: 2px solid white;
+    margin: 0px;
+    padding: 0px;
+    height: 348px;
+    width: 348px;
+}
+
+.thumbnailLeft {
+    margin-left: 40px;
+}
+
+.thumbnailRight {
+    margin-right: 20px;
+}
+.largeCoverText {
+    background-color:dimgrey;
+    color:white;
+    opacity:.85;
+    font-weight:bold;
+    font-size:36px;
+    position: absolute;
+    top: 200px;
+    left:50px;
+    margin-left:165px;
+   }
+
+.smallText {
+    background-color:dimgrey;
+    color:white;
+    opacity:.85;
+    font-weight:bold;
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left:50px;
+    margin-left:205px;
+    margin-top:51px;
+}
+
+.mapLargeFont {
+    background-color:white;
+    color:dimgray;
+    opacity:.85;
+    font-weight:bold;
+    font-size:22px;
+    position: absolute;
+    top: 200px;
+    left:50px;
+    margin-right:55px;
+    text-align:center;
+
+}
+
+.mapSmallFont {
+    background-color:white;
+    color:dimgray;
+    opacity:.85;
+    font-weight:bold;
+    font-size:12px;
+    position: absolute;
+    top: 200px;
+    left:50px;
+    margin-left:59px;
+    margin-top: 62px;
+    text-align:center;
+
+}
+.thumbnailText {
+    background-color:white;
+    color:dimgray;
+    opacity:.85;
+    font-weight:bold;
+    font-size:22px;
+    position: absolute;
+    top: 200px;
+    left:50px;
+    margin-left:50px;
     text-align:center;
 }
 
-.mapPic {
-    height: 600px;
-    
-   }
-
-.coverPicture {
-    background-image: url('NewFolder1/tuscanCover.jpg');
-    background-size:cover;
-    height: 600px;
-    padding:0px;
-    margin:0px;
-    }
+.paragraphText {
+    background-color:white;
+    color:dimgray;
+    opacity:.85;
+    font-weight:bold;
+    font-size:18px;
+    position: absolute;
+    top: 45px;
+    left:25px;
+    margin-left:50px;
+    text-align:center;
+}
+.socialMediaLogo {
+   float: left;
+}

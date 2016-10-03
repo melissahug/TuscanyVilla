@@ -94,6 +94,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NewFolder1\altcover2.jpg" />
+    <Content Include="NewFolder1\altcover3.jpg" />
+    <Content Include="NewFolder1\facebookx37.png" />
+    <Content Include="NewFolder1\facebook_logo_f_sqaure_0_1440433849.png" />
+    <Content Include="NewFolder1\Google plus.png" />
+    <Content Include="NewFolder1\Google plusx37.png" />
+    <Content Include="NewFolder1\Twitter.png" />
+    <Content Include="NewFolder1\Twitterx37.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
